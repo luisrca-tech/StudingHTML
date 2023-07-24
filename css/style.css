@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bg {
+    background-image: url(../imagens/GettyImages-1086740226-5c2d625a4cedfd00016ed36c.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: absolute;
+    background-size: cover;
+}
+
+.bg .textobg {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: italic;
+    text-align: center;
+    letter-spacing: 0.3em;
+    animation-name: anim1;
+    animation-name: anim2;
+    animation-duration: 1.5s;
+    animation-delay: 0.1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+
+body {
+    background-color: #171616;
+    color: #ffffff;
+    background-image: url(../imagens/Binary_background_vector_.jpg);
+    width: 100%;
+    height: 900px;
+    background-position: absolute;
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+@keyframes anim2 {
+    from {
+        background-color: blueviolet;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+@keyframes anim1 {
+    from {
+        background-color: rgb(250, 57, 121);
+        width: 100%;
+    }
+
+    to {
+        background-color: blueviolet;
+    }
+
+}
+
+.cabecalho {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 2px solid rgb(250, 57, 121);
+    animation-name: anim1;
+    animation-name: anim2;
+    animation-duration: 1.5s;
+    animation-delay: 0.1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    box-shadow: 2px 2px 2px 2px #000000;
+}
+
+p {
+    text-shadow: 2px solid red;
+    letter-spacing: 0.5mm;
+    font-size: 20px;
+}
+
+b {
+    text-transform: uppercase;
+    border-bottom: 2px solid green;
+    color: rgb(12, 208, 12);
+}
+
+.rodape {
+    font-size: 15px;
+    border: 2px solid;
+    animation-name: anim1;
+    animation-name: anim2;
+    animation-duration: 1.5s;
+    animation-delay: 0.1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim3 {
+    from {
+        background-color: #293a4a;
+        width: 100%;
+    }
+    to {
+        background-color: #1e3a52;
+    }
+}
+
+.link {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    font-family: italic;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 1px 2px #293a4a;
+    animation-name: anim3;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
