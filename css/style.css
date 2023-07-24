@@ -43,22 +43,22 @@ body {
 
 @keyframes anim2 {
     from {
-        background-color: blueviolet;
+        background-color: rgba(137, 43, 226, 0.444);
     }
 
     to {
-        background-color: red;
+        background-color: rgba(255, 0, 0, 0.466);
     }
 }
 
 @keyframes anim1 {
     from {
-        background-color: rgb(250, 57, 121);
+        background-color: rgba(250, 57, 121, 0.464);
         width: 100%;
     }
 
     to {
-        background-color: blueviolet;
+        background-color: rgba(137, 43, 226, 0.342);
     }
 
 }
@@ -76,6 +76,7 @@ body {
     animation-iteration-count: infinite;
     font-family: 'Oswald', sans-serif;
     font-size: 27px;
+    z-index: 1;
 }
 
 img {
