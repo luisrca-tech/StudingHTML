@@ -21,17 +21,17 @@
     letter-spacing: 0.3em;
     animation-name: anim1;
     animation-name: anim2;
-    animation-duration: 1.5s;
-    animation-delay: 0.1s;
+    animation-duration: 3s;
+    animation-delay: 2s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
 }
 
 
 body {
-    background-color: #171616;
+    background-color: #010423;
     color: #ffffff;
-    background-image: url(../imagens/Binary_background_vector_.jpg);
+    background-image: url(../=imagens/Binary_background_vector_.jpg);
     width: 100%;
     height: 900px;
     background-position: absolute;
@@ -47,13 +47,13 @@ body {
     }
 
     to {
-        background-color: rgba(255, 0, 0, 0.466);
+        background-color: rgba(80, 16, 80, 0.403);
     }
 }
 
 @keyframes anim1 {
     from {
-        background-color: rgba(250, 57, 121, 0.464);
+        background-color: #0104238d;
         width: 100%;
     }
 
@@ -67,7 +67,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
-    border: 2px solid rgb(250, 57, 121);
+    border: 2px solid #010423;
     animation-name: anim1;
     animation-name: anim2;
     animation-duration: 1.5s;
@@ -75,7 +75,7 @@ body {
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     font-family: 'Oswald', sans-serif;
-    font-size: 27px;
+    font-size: 25px;
     z-index: 1;
 }
 
@@ -89,7 +89,7 @@ img {
 p {
     text-shadow: 2px solid red;
     letter-spacing: 0.5mm;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 b {
@@ -115,7 +115,7 @@ b {
         width: 100%;
     }
     to {
-        background-color: #1e3a52;
+        background-color: #000000;
     }
 }
 
@@ -127,10 +127,6 @@ b {
     letter-spacing: 0.3em;
     font-family: italic;
     text-transform: uppercase;
-    box-shadow: 1px 1px 1px 2px #293a4a;
+    box-shadow: 1px 1px 1px 2px #000000;
     animation-name: anim3;
-    animation-duration: 1s;
-    animation-delay: 0.1s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
 }
