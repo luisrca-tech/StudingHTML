@@ -17,7 +17,6 @@
     text-align: center;
     text-transform: uppercase;
     font-family: italic;
-    text-align: center;
     letter-spacing: 0.3em;
     animation-name: anim1;
     animation-name: anim2;
@@ -67,7 +66,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
-    border: 2px solid #010423;
+    border: 2px solid #000000;
     animation-name: anim1;
     animation-name: anim2;
     animation-duration: 1.5s;
@@ -129,4 +128,17 @@ b {
     text-transform: uppercase;
     box-shadow: 1px 1px 1px 2px #000000;
     animation-name: anim3;
+}
+
+.inicio .link-github .informacoes {
+    font-size: 20px;
+    align-items: last baseline;
+    display: inline-flex;
+    flex-direction: column;
+    letter-spacing: 0.1em;
+    margin: 5px;
+    width: 95%;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: italic;
 }

@@ -23,4 +23,8 @@
     .link {
         font-size: 12px;
     }
+
+    .inicio .link-github .informacoes {
+        font-size: 10px;
+    }
 }
