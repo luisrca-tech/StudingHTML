@@ -78,11 +78,64 @@ body {
     z-index: 1;
 }
 
+.tag-doctype .img-doctype img {
+    width: 50%;
+    height: 300px;
+}
+
+.tag-meta .img-meta img {
+    width: 50%;
+    height: 300px;
+}
+
+.tag-body .img-body img {
+    width: 50%;
+    height: 300px;
+}
+
+.tag-main .img-main img {
+    width: 50%;
+    height: 300px;
+}
+
+.tags-h1-h6 img {
+    width: 50%;
+    height: 100px;
+}
+
+.tags-p-a img {
+    width: 50%;
+    height: 100px;
+}
+
+.tag-span img {
+    width: 50%;
+    height: 100px;
+}
+
+.tag-button img {
+    width: 50%;
+    height: 100px;
+}
+
+.tag-textarea img {
+    width: 50%;
+    height: 100px;
+}
+
+.tag-button .button .img-button img {
+    width: 50%;
+    height: 70px;
+}
+
+
 img {
     display: flex;
     justify-content: center;
-    width: 40%;
+    width: 50%;
+    height: 150px;
     box-shadow: 2px 2px 2px 2px #000000;
+    margin-left: 25%;
 }
 
 p {
@@ -132,11 +185,11 @@ b {
 
 .inicio .link-github .informacoes {
     font-size: 20px;
-    align-items: last baseline;
+    align-items: flex-start;
     display: inline-flex;
     flex-direction: column;
     letter-spacing: 0.1em;
-    margin: 5px;
+    margin-top: 3%;
     width: 95%;
     text-transform: uppercase;
     color: #000000;

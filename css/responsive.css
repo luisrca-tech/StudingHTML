@@ -14,6 +14,52 @@
 
     img {
         width: 60%;
+        height: 100px;
+    }
+
+    .tag-doctype .img-doctype img {
+        width: 50%;
+        height: 170px;
+    }
+
+    .tag-meta .img-meta img {
+        width: 50%;
+        height: 170px;
+    }
+
+    .tag-body .img-body img {
+        width: 50%;
+        height: 170px;
+    }
+
+    .tag-main .img-main img {
+        width: 50%;
+        height: 170px;
+    }
+
+    .tags-h1-h6 .img-h1 img {
+        width: 50%;
+        height: 50px;
+    }
+
+    .tags-p-a .img-p img {
+        width: 50%;
+        height: 55px;
+    }
+
+    .tag-span .img-span img {
+        width: 50%;
+        height: 65px;
+    }
+
+    .tags-table-tr-td .img-table img {
+        width: 50%;
+        height: 65px;
+    }
+
+    .tags-form-input .img-form img {
+        width: 50%;
+        height: 90px;
     }
 
     p {
